@@ -1,0 +1,26 @@
+.banner {
+    background-color: #00952a;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    animation: font-grow-up 1 1s;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+span {
+    color: #000;
+}
+
+@keyframes font-grow-up {
+    0%{
+        font-size: 0px;
+    }
+    100% {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,38 @@
+footer {
+    animation: font-grow-up infinite 1s;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1, footer span {
+    font-size: 16px;
+    color: #fff;
+}
+
+footer span {
+    color: #000;
+    animation: font-grow-up infinite 1s;
+}
+
+@keyframes font-grow-up {
+    0%{
+        background: pink;
+    }
+    20% {
+        background: blue;
+    }
+    40% {
+        background: red;
+    }
+    60% {
+        background: green;
+    }
+    80% {
+        background: teal;
+    }
+    100% {
+        background: yellow;
+    }
+}
